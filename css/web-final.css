@@ -110,6 +110,15 @@ p {
     height: auto;          /* keeps aspect ratio */
 }
 
+.flower-image {
+    border: 2px solid #666;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    display: block;
+    margin: auto;
+    width: 400px;          /* smaller width than original image */
+    height: auto;          /* keeps aspect ratio */
+}
+
 footer {
     background-color: hotpink;
     color: white;
