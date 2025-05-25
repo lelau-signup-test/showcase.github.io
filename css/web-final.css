@@ -1,0 +1,124 @@
+html {
+    background-image: url(../images/moroccan-flower-dark.png); 
+}
+
+.banner-image {
+  border: none;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+    width:960px; 
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: auto;
+    background: url(../images/moroccan-flower.png);
+    text-align: center; 
+    box-shadow: 0 0 12px 4px rgba(76, 76, 76, 0.7);
+	border: 1px solid #b3b3b3;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.navigation {
+    margin: 20px;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center; /* Center the nav container */
+}
+
+.navigation ul {
+    list-style: none;       /* Removes bullet points */
+    display: inline-flex; /* Use inline-flex to respect text-align: center */
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Spacing between items */
+}
+
+.navigation li {
+  position: relative;
+}
+
+.navigation li::after {
+  content: "|";
+  position: absolute;
+  right: -12px;
+  color: #aaa;
+}
+
+.navigation li:last-child::after {
+  content: none;
+}
+
+a {
+    color: #004080; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: hotpink;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36pt;
+    font-family: 'Lobster', Georgia, Times, serif;
+    line-height: 70px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20pt;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    line-height: 50px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 80px;  /* top-bottom 0px, left-right 40px */
+}
+
+.profile-pic {
+    border: 2px solid #666;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.body-image {
+    border: 2px solid #666;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    display: block;
+      margin: auto;
+    width: 600px;          /* smaller width than original image */
+    height: auto;          /* keeps aspect ratio */
+}
+
+footer {
+    background-color: hotpink;
+    color: white;
+    height: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+    display: flex;
+    justify-content: center;   /* horizontal alignment */
+    align-items: center;       /* vertical alignment */
+    margin-top: 60px
+}
